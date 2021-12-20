@@ -1,4 +1,4 @@
-
+//mayor o igual
 
 function mayorIgual(num1, num2) {
     if (num1 < num2) {
@@ -11,6 +11,16 @@ function mayorIgual(num1, num2) {
 }
    
 
+//bienvenido
+
 function bienvenido(nombre) {
     console.log('Bienvenido ' + nombre);
+}
+
+
+// calculo radio circulo
+
+function areaCirculo(radio, PI) {
+        let areaCirculo = (radio * radio) * PI;
+    console.log(areaCirculo);
 }
