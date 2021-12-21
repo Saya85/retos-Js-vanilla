@@ -24,3 +24,13 @@ function areaCirculo(radio, PI) {
         let areaCirculo = (radio * radio) * PI;
     console.log(areaCirculo);
 }
+
+//divisible por 2
+let num = parseInt(prompt('escribe un numero'));
+
+function divisible(let x = 2;) {
+    if (num % x == 0);
+    
+}
+
+console.log(divisible);
