@@ -26,11 +26,12 @@ function areaCirculo(radio, PI) {
 }
 
 //divisible por 2
-let num = parseInt(prompt('escribe un numero'));
 
-function divisible(let x = 2;) {
-    if (num % x == 0);
-    
+function divisible(num) {
+    if (num % 2 === 0) {
+        console.log('es divisible por dos')
+    } else{
+        console.log('no es divisible') 
+    }
 }
-
-console.log(divisible);
+console.log(num);
