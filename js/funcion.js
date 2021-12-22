@@ -32,6 +32,16 @@ function divisible(num) {
         console.log('es divisible por dos')
     } else{
         console.log('no es divisible') 
-    }
+    }console.log(num);
 }
-console.log(num);
+
+
+
+//precio iva
+
+
+
+function preciototal(precio,){
+    console.log( precio + (iva * precio))
+}
+
