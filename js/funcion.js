@@ -35,13 +35,18 @@ function divisible(num) {
     }console.log(num);
 }
 
-
-
 //precio iva
-
-
 
 function preciototal(precio,){
     console.log( precio + (iva * precio))
 }
 
+//
+
+let numero = 100;
+
+function unoCien(numero) {
+    while (i = 1; i<=numero; i++) {
+        console.log(i)
+    }
+}
