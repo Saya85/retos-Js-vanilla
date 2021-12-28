@@ -1,8 +1,5 @@
-let numero = 0;
 
-function unoCien(numero) {
-    while  (numero <= 100) {
-        numero ++
-        console.log(numero);
-    }
-}
+// del 1 al 100
+let numero = 0;
+unoCien(numero);
+
