@@ -49,3 +49,12 @@ function unoCien() {
         console.log(numero);
     }
 }
+
+//del 1 al 100 por for
+
+function unaCien() {
+    for (let num = 1; num <= 100;num++){
+        console.log(num);
+    } 
+}
+
