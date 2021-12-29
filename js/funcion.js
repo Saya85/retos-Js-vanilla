@@ -77,3 +77,62 @@ function totalCompra(num){
    }
     console.log(total);
 }
+
+// dias laborables
+
+
+let dia = prompt('escribe un dia de la semana');
+function laborable(dias) {
+    switch (dias) {
+        case 'lunes':
+        case 'martes':
+        case 'miercoles':
+        case 'jueves':
+        case 'viernes':
+           console.log('dia de trabajo');
+        break;
+        case 'sabado':
+        case 'domingo':
+            console.log('festivo');
+        break;   
+        default:
+            console.log('no es un dia valido') ;  
+    }
+}
+laborable(dia);
+
+
+
+
+
+
+
+// calculadora
+
+
+function calculadora(n1, n2, simbolo) {
+    switch (simbolo) {
+        case '+':
+            alert(n1 + n2);
+            break;
+        case '-':
+            alert(n1 - n2);
+            break;
+        case '*':
+            alert(n1 * n2);
+            break;
+        case '/':
+            alert(n1 / n2);
+            break;
+        case '^':
+            alert(n1 ^ n2);
+            break;
+        case '%':
+            alert(n1 % n2);
+            break;                    
+        default:
+            alert('no es un simbolo de los aceptados +, -, *, /, ^, %')
+            break;
+    }
+}
+
