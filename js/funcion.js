@@ -66,3 +66,14 @@ function unocienDivisible() {
         console.log(num);
     } 
 }
+//compra
+
+function totalCompra(num){
+   let total = 0;
+   for (let contador = 1; contador <= num; contador++) {
+       let valor = parseFloat(prompt('precio producto'));
+       valor = valor + (iva * valor);
+       total = total + valor;    
+   }
+    console.log(total);
+}
