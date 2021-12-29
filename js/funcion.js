@@ -98,6 +98,7 @@ function laborable(dias) {
     }
 }
 
+// contraseña
 
 function pasword(){
 for (var intentos = 3; intentos > 0; intentos--) {
