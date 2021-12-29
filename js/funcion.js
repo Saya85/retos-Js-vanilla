@@ -99,7 +99,21 @@ function laborable(dias) {
 }
 
 
-
+function pasword(){
+for (var intentos = 3; intentos > 0; intentos--) {
+    let contraseña = prompt('pon contraseña');
+    console.log(intentos);
+   if (contraseña === contraseñaOk) {
+       alert("¡¡¡Enhorabuena!!!");
+       break;
+   } else {
+       alert("contraseña incorrecta")
+   }
+}
+if (intentos === 0) {
+    alert("no tienes mas intentos")
+}
+}
 
 
 
