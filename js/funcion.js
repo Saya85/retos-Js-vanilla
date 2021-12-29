@@ -80,8 +80,6 @@ function totalCompra(num){
 
 // dias laborables
 
-
-let dia = prompt('escribe un dia de la semana');
 function laborable(dias) {
     switch (dias) {
         case 'lunes':
@@ -99,7 +97,7 @@ function laborable(dias) {
             console.log('no es un dia valido') ;  
     }
 }
-laborable(dia);
+
 
 
 
